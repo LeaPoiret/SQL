@@ -1,0 +1,3 @@
+GRANT ALL PRIVILEGES ON papyrus.* TO 'util1'@'%' INDENTIFIED BY 'util1'; 
+GRANT SELECT PRIVILEGES ON papyrus.* TO 'util2'@'%' INDENTIFIED BY 'util2';
+GRANT SELECT PRIVILEGES ON papyrus.fournis TO 'util3'@'%' INDENTIFIED BY 'util3';

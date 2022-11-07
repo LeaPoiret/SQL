@@ -1,0 +1,19 @@
+Comparaison Schémas MCD,MPD:
+
+L'entité "CLIENT" change pour devenir une Table, elle contient toujours une clé primaire "N_client" et deux attributs "Nom_client", "Prenom_client".
+
+Le lien entre l'entité "CLIENT", l'association "Passe" et l'entité "COMMANDE" disparait pour laisser place à une flèche qui part de la clé étrangère "N_client" qui se situe dans l'entité "COMMANDE" devenue uen Table pour rejoindre La clé primaire "N_client" dans l'entité "CLIENT" devenue lui de même une Table. Le MPD laisse donc apparaitre les clés étrangères sur le schéma à la diffèrence du schéma de MCD.
+
+La Table "COMMANDE" laisse apparaitre une clé étrangère "N_client", une clé primaire "N_commande" et deux attributs "Date_commande","Montant_commande".
+
+L'association "SECOMPOSEDE" ce transforme en une table, le lien entre la Table "COMMANDE" et la Table "SECOMPOSEDE" devient donc une flèche qui part de la clé étrangère "N_commande" qui se situe dans la Table "SECOMPOSEDE" pour pointer vers la clé primaire "N_commande" de la Table "COMMANDE".
+
+Dans la Table "SECOMPOSEDE" la seule diffèrence est l'apparition des clés etrangères "N_commande" et "N_article" qui forment donc une clé primaire , composé.Elle contient toujours deux attributs "Quantité","Taux_tva".
+
+Le lien entre la Table "SECOMPOSEDE" et la Table "ARTICLE" disparait lui aussi pour laisser place de même à une flèche qui part de la clé étrangère "N_article" de la Table "SECOMPOSEDE" pour pointer vers la clé primaire "N_article" de la Table "ARTICLE".
+
+Et pour finir dans la Table "ARTICLE" aucune diffèrence n'est à relever, elle contient toujours une clé primaire "N_article" et deux attributs "Designation_article","Pu_article".
+
+
+
+

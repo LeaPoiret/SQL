@@ -1,0 +1,16 @@
+sta_id :			entier(10)
+sta_nom :			chaine(50)
+sta_prenom :			chaine(50)
+sta_prenom :			chaine(1)
+sta_sexe :			chaine(50)
+sta_adresse :			chaine(50)
+sta_ville :			chaine(50)
+sta_codepostal :		chaine(5)
+sta_datedenaissance :		date
+for_id :			entier(10)
+for_intitule :			chaine(50)
+for_niveau :			entier(1)
+for_titre :			booleen
+for_duree :			entier
+for_datedebut :			date
+for_datefin :			date

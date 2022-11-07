@@ -1,0 +1,13 @@
+Nombre de touriste annuel :	nombre_an_touriste		numerique(9)
+Code postal :			code_postal			numerique(5)
+Longueur de la plage en km :	plage_longueur			décimal(6.3)
+Numéro nature de terrain :      plage_nature			numerique(2)
+Numéro de plage :		plage_numero			numerique(2)		
+Numéro de région :		numero_region			entier
+Numéro de responsable :		responsable_prenom		numerique(2)
+Libellé nature de terrain :	libelle_nature			varchar(50)
+Nom de la plage :		plage_nom			varchar(50)
+Nom de région :			region_nom			varchar(50)
+Nom du responsable :		responsable_nom			varchar(30)
+Nom de la ville :		ville_nom			varchar(30)
+Prènom du responsable :		responsable_prenom		varchar(30)
